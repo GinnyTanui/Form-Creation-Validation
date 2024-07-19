@@ -20,6 +20,6 @@ async function fetchUserData(){
     } 
     catch(error){ 
         dataContainer.innerHTML='';
-        dataContainer.textContent = "Fail to load user data"
+        dataContainer.textContent = "Fail to load user data."
     }
 } 
